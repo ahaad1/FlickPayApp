@@ -4,9 +4,14 @@ spring:
   servlet:
     multipart:
       max-file-size: 50MB
+  thymeleaf:
+    enabled: true
+    prefix: classpath:/templates/
+
 springdoc:
   default-consumes-media-type: application/json
 
 server:
   servlet:
     context-path: /api/v1/
+

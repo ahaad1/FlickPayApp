@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/FlickPayDB
-    username: username
-    password: password
+    username: mgwr
+    password: 11111111
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -31,7 +31,7 @@ spring:
 application:
   security:
     jwt:
-      sercret-key: 1TvWoEmKL3
+      sercret-key: TgeCY6i4eZPUQCkJR7xaBOAjF5GtUk6Sc5mziEt4y9oyWRXqnwuIGD8s3uOkeF2
       expiration: 8640000
   mailing:
     frontend:
