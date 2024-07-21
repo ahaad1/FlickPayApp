@@ -121,6 +121,14 @@
     transition: visibility .2s, opacity .2s ease-in-out;
     z-index: 2;
 }
+.wallet_interaction button{
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+}
 .wallet_interaction_wrapper{
     gap: 18px;
     display: flex;

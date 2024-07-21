@@ -55,10 +55,16 @@ export function MyWallets() {
                             </div>
                         </div>
                         <div className={style.wallet_interaction}>
-                            <AutoAwesomeRoundedIcon className={style.wallet_interaction_icon}/>
+                            <button>
+                                <AutoAwesomeRoundedIcon className={style.wallet_interaction_icon}/>
+                            </button>
                             <div className={style.wallet_interaction_wrapper}>
-                                <SendRoundedIcon className={style.wallet_interaction_icon}/>
-                                <DeleteOutlineRoundedIcon className={style.wallet_interaction_icon_red}/>
+                                <button>
+                                    <SendRoundedIcon className={style.wallet_interaction_icon}/>
+                                </button>
+                                <button>
+                                    <DeleteOutlineRoundedIcon className={style.wallet_interaction_icon_red}/>
+                                </button>
                             </div>  
                         </div>
                     </div>

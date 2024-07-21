@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Header.module.css';
+import walletIcon from '../../../assets/wallet.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGear, faArrowRightToBracket, faPlus } from '@fortawesome/free-solid-svg-icons';
 
@@ -7,7 +8,7 @@ export function Header() {
     return (
         <div className={style.header}>
             <a href="/" className={style.header_logo}>
-                <img src="../../../assets/wallet.png" alt="Wallet Logo" />
+                <img src={walletIcon} alt="Wallet Logo" />
                 <h2>FlickPay</h2>
             </a>
             <div className={style.header_navbar}>
